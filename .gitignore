@@ -1,0 +1,29 @@
+# Environment files with API keys
+.env
+.env.*
+secrets.json
+.venv/
+
+#Virtual environment
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files and data
+*.pkl
+*.pth
+*.bin
+models/
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+.DS_Store
