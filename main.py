@@ -17,4 +17,4 @@ try:
     )
     print(response.choices[0].message.content)
 except Exception as e:
-    print(f"Ups! Algo salió mal: {e}")
+    print(f"Ups! Something's got wrong: {e}")
